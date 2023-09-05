@@ -36,7 +36,7 @@ public class FileSplitter {
     }
 
     public static void main(String[] args) {
-        String inputFilePath = "C:\\Users\\Shivansh Chhokar\\Downloads\\SQA.pdf";
+        String inputFilePath = "input_dir";
         String outputDirectory = "output_pieces";
         int pieceSize = 1024 * 1024; // 1 MB piece size (adjust as needed)
 
